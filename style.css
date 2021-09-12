@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.card{
+    background: #eaeaead0;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
+    font-size: 120%;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    padding: 0.8 1rem;
+    background: #7c7c7c2b;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 100px);
+
+}
+
+
+button{
+    background: #eaeaead0;
+    margin: 0.5rem 1rem;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+  background: #7c7c7c2b;
+}
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.description{
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.weather .loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+
+
+
